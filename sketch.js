@@ -70,4 +70,16 @@ function draw(){
     npcz1.display();
 
     drawSprites();
+    mouse();
+}
+
+function mouse() {
+    var posx,posy;
+    posx = mouseX;
+    posy = mouseY;
+    if(mousePressedOver(boxs)){  
+
+     console.log("posição X = "+posx);
+     console.log("posição Y = "+posy);
+    }
 }
